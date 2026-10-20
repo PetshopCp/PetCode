@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import Home from '../pages/Home'
+import Produtos from '../pages/Produtos'
 
 const Header = () => {
     return (
@@ -13,7 +15,7 @@ const Header = () => {
             </div>
 
             <Link to="/" className="flex items-center gap-2 py-2 rounded-2xl"><Home />Home</Link>
-            <Link to="/produtos" className="flex items-center gap-2 py-2 rounded-2xl"><Info />Produtos</Link>
+            <Link to="/produtos" className="flex items-center gap-2 py-2 rounded-2xl">Produtos</Link>
 
         </header>
     )
